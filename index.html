@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio website of Parthib Bora - BCA student and aspiring data analyst." />
+  <title>Parthib Bora | BCA Student & Aspiring Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">PB<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Parthib <span>Bora</span></h1>
+          <h2>BCA Student &amp; Aspiring Data Analyst</h2>
+          <p class="hero-text">
+            I am a BCA 1st-semester student at Jagannath Barooah University, Jorhat,
+            building practical skills in data analysis, data entry, Microsoft Office,
+            and basic programming.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="#skills" class="btn btn-secondary">View My Skills</a>
+          </div>
+
+          <div class="quick-info">
+            <div>
+              <strong>BCA</strong>
+              <span>1st Semester</span>
+            </div>
+            <div>
+              <strong>JBU</strong>
+              <span>Jorhat, Assam</span>
+            </div>
+            <div>
+              <strong>Open</strong>
+              <span>For Opportunities</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-card">
+            <!-- PHOTO: Replace photo.jpg with your own photo file -->
+            <img id="profilePhoto" src="photo.jpg" alt="Parthib Bora profile photo"
+                 onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='flex';" />
+            <div id="photoFallback" class="photo-fallback">
+              <div class="initials">PB</div>
+              <p>Place Your Photo Here</p>
+              <small>Save your image as <strong>photo.jpg</strong></small>
+            </div>
+            <div class="photo-badge">Available for Work</div>
+          </div>
+
+          <div class="floating-card card-one">
+            <span class="icon">📊</span>
+            <div>
+              <strong>Data &amp; Excel</strong>
+              <small>Analysis • Entry • Reports</small>
+            </div>
+          </div>
+
+          <div class="floating-card card-two">
+            <span class="icon">💻</span>
+            <div>
+              <strong>Office &amp; Web</strong>
+              <small>Word • PowerPoint • HTML</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>A motivated student ready to learn and contribute.</h2>
+          <p>
+            I am currently pursuing a Bachelor of Computer Applications (BCA) and
+            developing practical computer and office skills. I enjoy organized work,
+            learning new tools, and creating clean, useful documents and presentations.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <span class="about-number">01</span>
+            <h3>Learning Mindset</h3>
+            <p>
+              Continuously improving my technical skills through study, practice,
+              and hands-on projects.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <span class="about-number">02</span>
+            <h3>Practical Work</h3>
+            <p>
+              Comfortable with data entry, spreadsheets, presentations, documents,
+              and basic database tasks.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <span class="about-number">03</span>
+            <h3>Professional Goal</h3>
+            <p>
+              To grow into a reliable data and technology professional while gaining
+              real-world experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MY SKILLS</p>
+          <h2>Tools &amp; technologies I work with</h2>
+          <p>
+            A growing toolkit covering office productivity, design, databases, and programming.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon">📗</span>
+              <span class="skill-tag">Office</span>
+            </div>
+            <h3>Microsoft Excel</h3>
+            <p>Spreadsheets, data entry, formatting, basic analysis, tables and reports.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon">📊</span>
+              <span class="skill-tag">Presentations</span>
+            </div>
+            <h3>PowerPoint</h3>
+            <p>Professional slides, layouts, presentations, and visual storytelling.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon">📝</span>
+              <span class="skill-tag">Documents</span>
+            </div>
+            <h3>MS Word</h3>
+            <p>Document formatting, editing, reports, resumes, and business documents.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon">🗃️</span>
+              <span class="skill-tag">Database</span>
+            </div>
+            <h3>MS Access</h3>
+            <p>Basic database organization, tables, forms, and data management.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon">🎨</span>
+              <span class="skill-tag">Design</span>
+            </div>
+            <h3>Photoshop</h3>
+            <p>Basic image editing, creative layouts, graphics and photo adjustments.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon">📄</span>
+              <span class="skill-tag">Publishing</span>
+            </div>
+            <h3>PageMaker</h3>
+            <p>Page layout, print-ready documents, and simple publishing workflows.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon">⚙️</span>
+              <span class="skill-tag">Programming</span>
+            </div>
+            <h3>C++</h3>
+            <p>Basic programming concepts, problem solving, and structured coding.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon">🌐</span>
+              <span class="skill-tag">Web</span>
+            </div>
+            <h3>HTML</h3>
+            <p>Building structured web pages and responsive portfolio interfaces.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-dark">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">WHAT I CAN DO</p>
+          <h2>Services</h2>
+          <p>
+            I am available for entry-level freelance and support work where accuracy,
+            presentation, and reliability matter.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <h3>Data Analysis</h3>
+            <p>Organizing, cleaning, summarizing and presenting spreadsheet data.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <h3>Data Entry</h3>
+            <p>Accurate data input, spreadsheet updates, formatting and file organization.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">03</span>
+            <h3>Excel Work</h3>
+            <p>Tables, calculations, formatting, basic reporting and spreadsheet support.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">04</span>
+            <h3>PowerPoint Work</h3>
+            <p>Clean, professional presentations for study, projects and business needs.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">05</span>
+            <h3>MS Word Work</h3>
+            <p>Document creation, editing, formatting and professional report preparation.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">06</span>
+            <h3>Computer Support</h3>
+            <p>Basic office, database and document-related assistance for everyday tasks.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section section-light">
+      <div class="container education-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">EDUCATION</p>
+          <h2>My academic journey</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">CURRENT</span>
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p class="institution">Jagannath Barooah University, Jorhat</p>
+              <p>Currently pursuing 1st semester and building a strong foundation in computer applications.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">COMPLETED</span>
+              <h3>Class 12</h3>
+              <p class="institution">Higher Secondary Education</p>
+              <p>Completed Class 12 before starting my undergraduate studies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let's work together.</h2>
+          <p class="contact-intro">
+            Looking for help with data entry, Excel, PowerPoint, MS Word, or other
+            computer-based tasks? Send me a message and I’ll get back to you.
+          </p>
+
+          <!-- Replace these placeholder details with your real details -->
+          <div class="contact-details">
+            <a href="mailto:parthibpriyam@gmail.com">
+              <span>✉</span>
+              parthibpriyam@gmail.com
+            </a>
+            <a href="tel:+919395181300">
+              <span>☎</span>
+              +91 9395181300
+            </a>
+            <div>
+              <span>📍</span>
+              Jorhat, Assam, India
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me what you need..." required></textarea>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Parthib Bora. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
