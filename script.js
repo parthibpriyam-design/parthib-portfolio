@@ -57,7 +57,7 @@ form.addEventListener("submit", (event) => {
   );
 
   // Replace this email with your real email address.
-  const destination = "your-email@example.com";
+  const destination = "parthibpriyam@gmail.com";
 
   window.location.href = `mailto:${destination}?subject=${subject}&body=${body}`;
   formNote.textContent = "Opening your email app...";
